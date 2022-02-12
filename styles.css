@@ -1,1 +1,41 @@
+body {
+    font-size: 100px;
+    background-image: url(Photos/watercolor.png);
+}
+img {
+    float: left;
+}
+header > nav {
+    float: right;
+}
+header {
+    border-style: none none solid none;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.box {
+    display: flex;
+    text-align: center;
+    padding: 100px;   
+    margin: 100px;
+    margin-left: 500px;
+    justify-content: space-around;
+    flex-direction: row;  
+    align-items: flex-start;
+    gap: 100px;
+}
+.one {
+    background-color: white;
+}
+.two { background-color: white;
+}
 
+h1,h2 {
+    border-style: none none solid none;
+}
+footer {
+    background-color: gray;
+    border-style: solid none none none;
+    border-color: steelblue;
+    text-align: center;
+}
